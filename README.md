@@ -34,9 +34,9 @@
 
 | Name         | Role         |
 | :-----------:| :-----------:|
-| Sarah Siegel(https://github.com/sarsieg) | - Front End  |
-| Scott Siegel(https://github.com/scoven2) | - Back End   |
-| Steven Siegel(https://github.com/StevegSiegel)| - Back End   |
+| [Sarah Siegel](https://github.com/sarsieg) | - Front End  |
+| [Scott Siegel](https://github.com/scoven2) | - Back End   |
+| [Steven Siegel](https://github.com/StevegSiegel)| - Back End   |
 
 ### Installation
 
