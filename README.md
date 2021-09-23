@@ -1,15 +1,15 @@
-# Project-3
+# Project-3 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 | Table of Contents |
 |:---:|
 |[Description](#description)|
 |[Challenge](#challenge)|
-|[User-Story](#user-story)|
+|[User Story](#user-story)|
 |[Live-Link](#live-link)|
 |[Usage](#usage)|
 |[Features](#features)|
 |[Technologies](#technologies)|
-|[Break-Down-of-Tasks-and-Roles](#break-down-of-tasks-and-roles)|
+|[Break Down of Tasks and Roles](#break-down-of-tasks-and-roles)|
 |[Installation](#installation)|
 |[License](#license)|
 
