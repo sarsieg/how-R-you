@@ -1,0 +1,27 @@
+{
+  "name": "Project-3",
+  "version": "1.0.0",
+  "description": "| Table of Contents |\r |:---:|\r |[Description](#description)|\r |[Challenge](#challenge)|\r |[User Story](#user-story)|\r |[Live-Link](#live-link)|\r |[Usage](#usage)|\r |[Features](#features)|\r |[Technologies](#technologies)|\r |[Break Down of Tasks and Roles](#break-down-of-tasks-and-roles)|\r |[Installation](#installation)|\r |[License](#license)|",
+  "main": "index.js",
+  "dependencies": {
+    "react-dom": "^17.0.2",
+    "react": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarsieg/Project-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarsieg/Project-3/issues"
+  },
+  "homepage": "https://github.com/sarsieg/Project-3#readme"
+}
