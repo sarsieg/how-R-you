@@ -18,7 +18,22 @@
 
 ### Description
 
+A blog style web application that allows users to log into How[r]you to either see and/or join the discussion in a space that is light and kind to discuss mental health issues and every day struggles.
+
 ### Challenge
+
+> Use React for the front end.
+> Use GraphQL with a Node.js and Express.js server.
+> Use MongoDB and the Mongoose ODM for the database.
+> Use queries and mutations for retrieving, adding, updating, and deleting data.
+> Be deployed using Heroku (with data).
+> Have a polished UI.
+> Be responsive.
+> Be interactive (i.e., accept and respond to user input).
+> Include authentication (JWT).
+> Protect sensitive API key information on the server.
+> Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class and id naming conventions, indentation, high-quality comments, etc.).
+> Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
 ### User Story
 
