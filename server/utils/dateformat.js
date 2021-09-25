@@ -36,4 +36,28 @@ module.exports = (
         10: monthLength === 'short' ? 'Nov' : 'November',
         11: monthLength === 'short' ? 'Dec' : 'December',
     };
-}
+
+    const dateObj = new Date(timestamp);
+    const abrvMonth = months[dateObj.getMonth()];
+
+    const day = dateSuffix
+        ? addDate(dateObj.getDate())
+        : dateObj. getDate();
+
+    const year = dateObj.getFullYear();
+    let hour = dateObj.getHours() > 12
+        ? Math.floor(dateObj.getHours() / 2)
+        : dateObj.getHours();
+
+    if (hour === 0) {
+        hour = 12;
+    }
+
+    const minutes = dateObj.getMinutes();
+
+    const amOrPm = dateObj.getHours() >= 12 ? 'pm' : 'am';
+
+    const TimeStamp = `${abrvMonth} ${day}, ${year} at ${hour}:${minutes} ${amOrPm}`
+
+    return TimeStamp;
+};
