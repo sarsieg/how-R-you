@@ -14,7 +14,7 @@ const addDate = date => {
         dateString = `${dateString}th`;
     }
     
-    return dateString;
+    
 };
 
 module.exports = (
