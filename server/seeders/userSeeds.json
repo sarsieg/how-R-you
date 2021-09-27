@@ -1,0 +1,42 @@
+[
+    {
+        "username": "Eeyore",
+        "email": "sadboy@gmail.com",
+        "password": "sadboy"
+    },
+    {
+        "username": "Piglet",
+        "email": "shyone@gmail.com",
+        "password": "shyone"
+    },
+    {
+        "username": "Pooh",
+        "email": "honeylover@gmail.com",
+        "password": "honeylover"
+    },
+    {
+        "username": "Tiger",
+        "email": "bouncyboy@gmail.com",
+        "password": "bouncyboy@gmail.com"
+    },
+    {
+        "username": "Roo",
+        "email": "babyroo@gmail.com",
+        "password": "babyroo"
+    },
+    {
+        "username": "Kanga",
+        "email": "mamakanga@gmail.com",
+        "password": "mamahanga"
+    },
+    {
+        "username": "Owl",
+        "email": "smartest@gmail.com",
+        "password": "smartest"
+    },
+    {
+        "username": "Gopher",
+        "email": "holedigger@gmail.com",
+        "password": "holedigger"
+    }
+]
