@@ -34,7 +34,7 @@ const thoughtSchema = new Schema({
             createAt: {
                 type: Date,
                 default: Date.now,
-                get: (timestamp) => dateFormat(timestamp);
+                get: (timestamp) => dateFormat(timestamp),
             },
         },
     ],
