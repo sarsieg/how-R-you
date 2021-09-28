@@ -7,7 +7,7 @@ const ThoughtList = ({
     showTitle = true,
     showUsername = true,
 }) => {
-    if (!thoughts.length) {
+    if (!thoughts) {
         return <h3>No Thoughts Yet</h3>
     }
 
