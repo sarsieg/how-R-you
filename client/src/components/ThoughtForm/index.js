@@ -20,8 +20,8 @@ const ThoughtForm = () => {
                     query: QUERY_THOUGHTS,
                     data: { thoughts: [addThought, ...thoughts] },
                 });
-            } catch (err) {
-                console.error(err);
+            } catch (e) {
+                console.error(e);
             }
 
             const { me } = cache.readQuery({ query: QUERY_ME });
