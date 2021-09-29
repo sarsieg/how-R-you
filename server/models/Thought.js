@@ -29,7 +29,7 @@ const thoughtSchema = new Schema({
             },
             commentAuthor: {
                 type: String,
-                require: true,
+                required: true,
             },
             createdAt: {
                 type: Date,
