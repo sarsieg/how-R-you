@@ -25,7 +25,7 @@ const Footer = () => {
                     >
                         ❤️
                     </span>{' '}
-                    Placeholder text
+                    <a href="https://www.github.com/sarsieg">Sarah Siegel</a>, <a href="https://www.github.com/scoven2">Scott Siegel</a>, and <a href="https://www.github.com/StevegSiegel">Steve Siegel</a>
                 </h4>
             </div>
         </footer>

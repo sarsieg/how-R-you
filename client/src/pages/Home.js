@@ -20,7 +20,7 @@ const Home = () => {
           ) : (
             <ThoughtList
               thoughts={thoughts}
-              title="How ya feelin?"
+              title="Check out how other people are feeling today... helpful comments are encouraged!"
               />
           )}
         </div>
