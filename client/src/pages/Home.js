@@ -19,7 +19,7 @@ const Home = () => {
             <div>Loading...</div>
           ) : (
             <ThoughtList
-              thought={thoughts}
+              thoughts={thoughts}
               title="How ya feelin?"
               />
           )}

@@ -21,7 +21,7 @@ const Login = (props) => {
     console.log(formState);
     try {
       const { data } = await login({
-        variable: { ...formState },
+        variables: { ...formState },
       });
       Auth.login(data.login.token);
     } catch (e) {
@@ -80,7 +80,7 @@ const Login = (props) => {
         </div>
       </div>
     </main>
-  )
+  );
 };
 
 export default Login;
