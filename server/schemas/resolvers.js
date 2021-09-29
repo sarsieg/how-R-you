@@ -70,7 +70,7 @@ const resolvers = {
                     { _id: thoughtId },
                     {
                         $addToSet: {
-                            comment: { commentText, commentAuthor: context.user.username },
+                            comments: { commentText, commentAuthor: context.user.username },
                         },
                     },
                     {

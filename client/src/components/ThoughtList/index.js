@@ -7,7 +7,7 @@ const ThoughtList = ({
     showTitle = true,
     showUsername = true,
 }) => {
-    if (!thoughts) {
+    if (!thoughts.length) {
         return <h3>No Thoughts Yet</h3>
     }
 
@@ -24,14 +24,14 @@ const ThoughtList = ({
                                     to={`/profiles/${thought.thoughtAuthor}`}
                                 >
                                     {thought.thoughtAuthor} <br />
-                                    <span style={{ fontsize: '1rem' }}>
+                                    <span style={{ fontSize: '1rem' }}>
                                         had this thought on {thought.createdAt}
                                     </span>
                                 </Link>
                             ) : (
                                 <>
-                                    <span style={{ fontsize: '1rem' }}>
-                                        you had this thought on {thought.createdAt}
+                                    <span style={{ fontSize: '1rem' }}>
+                                        You had this thought on {thought.createdAt}
                                     </span>
                                 </>
                             )}

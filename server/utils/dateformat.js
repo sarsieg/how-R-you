@@ -1,4 +1,4 @@
-const addDate = date => {
+const addDateSuffix = date => {
     
     let dateString = date.toString();
 
@@ -13,7 +13,7 @@ const addDate = date => {
     } else {
         dateString = `${dateString}th`;
     }
-    
+    return dateString;
     
 };
 
@@ -29,7 +29,7 @@ module.exports = (
         3: monthLength === 'short' ? 'Apr' : 'April',
         4: monthLength === 'short' ? 'May' : 'May',
         5: monthLength === 'short' ? 'Jun' : 'June',
-        6: monthLength === 'short' ? 'jul' : 'July',
+        6: monthLength === 'short' ? 'Jul' : 'July',
         7: monthLength === 'short' ? 'Aug' : 'August',
         8: monthLength === 'short' ? 'Sep' : 'September',
         9: monthLength === 'short' ? 'Oct' : 'October',
@@ -38,16 +38,17 @@ module.exports = (
     };
 
     const dateObj = new Date(timestamp);
-    const abrvMonth = months[dateObj.getMonth()];
+    const formattedMonth = months[dateObj.getMonth()];
 
-    const day = dateSuffix
-        ? addDate(dateObj.getDate())
-        : dateObj. getDate();
+    const dayOfMonth = dateSuffix
+        ? addDateSuffix(dateObj.getDate())
+        : dateObj.getDate();
 
     const year = dateObj.getFullYear();
-    let hour = dateObj.getHours() > 12
-        ? Math.floor(dateObj.getHours() / 2)
-        : dateObj.getHours();
+    let hour = 
+        dateObj.getHours() > 12
+            ? Math.floor(dateObj.getHours() - 12)
+            : dateObj.getHours();
 
     if (hour === 0) {
         hour = 12;
@@ -55,9 +56,9 @@ module.exports = (
 
     const minutes = dateObj.getMinutes();
 
-    const amOrPm = dateObj.getHours() >= 12 ? 'pm' : 'am';
+    const periodOfDay = dateObj.getHours() >= 12 ? 'pm' : 'am';
 
-    const TimeStamp = `${abrvMonth} ${day}, ${year} at ${hour}:${minutes} ${amOrPm}`
+    const formattedTimeStamp = `${formattedMonth} ${dayOfMonth}, ${year} at ${hour}:${minutes} ${periodOfDay}`
 
-    return TimeStamp;
+    return formattedTimeStamp;
 };
