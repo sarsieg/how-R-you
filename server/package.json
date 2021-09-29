@@ -1,21 +1,23 @@
 {
-  "name": "Project-3",
+  "name": "howru",
   "version": "1.0.0",
   "description": "| Table of Contents |\r |:---:|\r |[Description](#description)|\r |[Challenge](#challenge)|\r |[User Story](#user-story)|\r |[Live-Link](#live-link)|\r |[Usage](#usage)|\r |[Features](#features)|\r |[Technologies](#technologies)|\r |[Break Down of Tasks and Roles](#break-down-of-tasks-and-roles)|\r |[Installation](#installation)|\r |[License](#license)|",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
-    "apollo-server-express": "^3.3.0",
-    "bcrypt": "^5.0.1",
+    "apollo-server-express": "^2.12.0",
+    "bcrypt": "^5.0.0",
     "express": "^4.17.1",
-    "graphql": "^15.6.0",
+    "graphql": "^15.5.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.8",
+    "mongoose": "^5.13.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",

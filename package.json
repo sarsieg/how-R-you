@@ -1,8 +1,8 @@
 {
-  "name": "Project-3",
+  "name": "howryou",
   "version": "1.0.0",
   "description": "| Table of Contents |\r |:---:|\r |[Description](#description)|\r |[Challenge](#challenge)|\r |[User Story](#user-story)|\r |[Live-Link](#live-link)|\r |[Usage](#usage)|\r |[Features](#features)|\r |[Technologies](#technologies)|\r |[Break Down of Tasks and Roles](#break-down-of-tasks-and-roles)|\r |[Installation](#installation)|\r |[License](#license)|",
-  "main": "index.js",
+  "main": "server/server.js",
   "dependencies": {
     "apollo-server-express": "^3.3.0",
     "bcrypt": "^5.0.1",
@@ -13,10 +13,14 @@
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.13"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"

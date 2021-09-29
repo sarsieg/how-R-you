@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 
 import { ADD_COMMENT } from '../../utils/mutations';
-import Autn from '../../utils/auth';
+import Auth from '../../utils/auth';
 
 const CommentForm = ({ thoughtId }) => {
     const [commentText, setCommentText] = useState('');
@@ -33,7 +33,7 @@ const CommentForm = ({ thoughtId }) => {
 
         if (name === 'commentText' && value.length <= 280) {
             setCommentText(value);
-            setCharacterCount(vlaue.length);
+            setCharacterCount(value.length);
         }
     };
 
