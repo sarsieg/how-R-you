@@ -5,13 +5,13 @@ const thoughtSchema = new Schema({
     thoughtText: {
         type: String,
         required: 'You need to leave a thought!',
-        minlength: 2,
+        minlength: 1,
         maxlength: 280,
         trim: true,
     },
     thoughtAuthor: {
         type: String,
-        require: true,
+        required: true,
         trim: true,
     },
     createAt: {
@@ -31,7 +31,7 @@ const thoughtSchema = new Schema({
                 type: String,
                 require: true,
             },
-            createAt: {
+            createdAt: {
                 type: Date,
                 default: Date.now,
                 get: (timestamp) => dateFormat(timestamp),
