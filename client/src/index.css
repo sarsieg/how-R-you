@@ -19,6 +19,7 @@
  */
 body {
   margin: 0;
+ 
 }
 
 /**
@@ -918,6 +919,7 @@ a:hover {
   color: #1b89bc !important;
 }
 
+ 
 /* BACKGROUND UTILS */
 .bg-primary {
   background-color: #8860D0 !important;
