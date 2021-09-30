@@ -15,6 +15,7 @@ import SingleThought from './pages/SingleThought';
 import Profile from './pages/Profile';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const httpLink = createHttpLink({
   uri: '/graphql',
