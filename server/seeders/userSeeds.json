@@ -28,15 +28,5 @@
         "username": "Kanga",
         "email": "mamakanga@gmail.com",
         "password": "mamakanga"
-    },
-    {
-        "username": "Owl",
-        "email": "smartest@gmail.com",
-        "password": "smartest"
-    },
-    {
-        "username": "Gopher",
-        "email": "holedigger@gmail.com",
-        "password": "holedigger"
     }
 ]
