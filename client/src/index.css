@@ -1,0 +1,31 @@
+header {
+    background-image: url('../src//components/img/5028.png');
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url('../src/components/img/2795.jpg');
+}
+
+.bg-primary.text-light.mb-4.py-3.flex-row.align-center {
+    margin-bottom: 0px!important;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: #02353C;
+}
+
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sans-serif;
+    margin: 0 0 0.5rem;
+}
