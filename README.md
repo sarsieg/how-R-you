@@ -51,6 +51,13 @@ SO THAT I can access my accoutn, make posts, and comment on other people's posts
 
 ### Usage
 
+In the command line type the following commands
+
+* install npm init-y
+* npm i
+* npm run seed
+* npm run develop
+
 ### Features
 
 ### Technologies
