@@ -45,6 +45,10 @@ SO THAT I can access my accoutn, make posts, and comment on other people's posts
 
 ### Live Link
 
+[Github](https://github.com/sarsieg/how-R-you)
+
+[Heroku](https://how--r--you.herokuapp.com/)
+
 ### Usage
 
 ### Features
