@@ -76,7 +76,7 @@ a:hover {
 }
 
 .btn.btn-info {
-    background-color: #2EAF7D;
+    background-color: rgb(16, 110, 74);
     color: #ffffff;
 }
 
@@ -103,7 +103,7 @@ a:hover {
 
 .card .card-header {
     padding: 0.375rem;
-    background-color: #82c07a;
+    background-color: rgb(16, 110, 74)!important;
     color: #d9e9e8;
 }
 
@@ -112,4 +112,22 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     background-image: url('../src/components/img/2795.jpg');
+}
+
+.col-md-10 {
+    width: 66.33%!important;
+}
+
+.flex-row.justify-center {
+    margin-left: 25%;
+}
+
+.m-3 {
+    background-color: #e6e6e6;
+    opacity: 85%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
 }
