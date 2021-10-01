@@ -7,7 +7,6 @@
 |[User Story](#user-story)|
 |[Live-Link](#live-link)|
 |[Usage](#usage)|
-|[Features](#features)|
 |[Technologies](#technologies)|
 |[Break Down of Tasks and Roles](#break-down-of-tasks-and-roles)|
 |[Installation](#installation)|
@@ -57,8 +56,6 @@ In the command line type the following commands
 * npm i
 * npm run seed
 * npm run develop
-
-### Features
 
 ### Technologies
 
