@@ -55,6 +55,18 @@ SO THAT I can access my accoutn, make posts, and comment on other people's posts
 
 ### Technologies
 
+* React
+* GraphQL
+* Node.js
+* Express.js server
+* MongoDB
+* mongoose
+* Heroku
+* bcrypt
+* jwt
+* apollo
+
+
 ### Break Down of Tasks and Roles
 
 | Name         | Role         |
