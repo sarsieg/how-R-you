@@ -80,7 +80,7 @@ a:hover {
 }
 
 .btn.btn-info {
-    background-color: #2EAF7D;
+    background-color: rgb(16, 110, 74);
     color: #ffffff;
 }
 
@@ -117,6 +117,7 @@ a:hover {
     flex-wrap: wrap;
     background-image: url('../src/components/img/2795.jpg');
 }
+
 
 /* .card.mb-3 {
     margin-left: 50%;
@@ -184,4 +185,5 @@ a:hover {
 .col-12.col-md-10.mb-3.p-3 {
     background-color: #e6e6e6;
     opacity: 85%;
+
 }

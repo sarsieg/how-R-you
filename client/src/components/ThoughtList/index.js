@@ -17,21 +17,21 @@ const ThoughtList = ({
             {thoughts &&
                 thoughts.map((thought) => (
                     <div key={thought._id} className="card mb-3">
-                        <h4 className="card-header bg-primary text-light p-2 m-0">
+                        <h4 className="card-header bg-primary text-light p-2 m-0" id="bootstrap-overrides">
                             {showUsername ? (
                                 <Link
                                     className="text-light"
                                     to={`/profiles/${thought.thoughtAuthor}`}
                                 >
                                     {thought.thoughtAuthor} <br />
-                                    <span style={{ fontSize: '1rem' }}>
-                                        had this thought on {thought.createdAt}
+                                    <span style={{ fontSize: '.75rem' }}>
+                                        Posted on {thought.createdAt}
                                     </span>
                                 </Link>
                             ) : (
                                 <>
-                                    <span style={{ fontSize: '1rem' }}>
-                                        You had this thought on {thought.createdAt}
+                                    <span style={{ fontSize: '.75rem' }}>
+                                        Posted on {thought.createdAt}
                                     </span>
                                 </>
                             )}
@@ -43,7 +43,11 @@ const ThoughtList = ({
                             className="btn btn-primary btn-block btn-squared"
                             to={`/thoughts/${thought._id}`}
                         >
-                            Click to see discussion
+
+                      
+
+                            Check Chit Chat
+
                         </Link>
                     </div>
                 ))}
