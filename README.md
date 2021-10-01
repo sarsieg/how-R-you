@@ -66,7 +66,6 @@ SO THAT I can access my accoutn, make posts, and comment on other people's posts
 * jwt
 * apollo
 
-
 ### Break Down of Tasks and Roles
 
 | Name         | Role         |
@@ -76,6 +75,8 @@ SO THAT I can access my accoutn, make posts, and comment on other people's posts
 | [Steven Siegel](https://github.com/StevegSiegel)| - Back End   |
 
 ### Installation
+
+In the root directory of the project, type in the terminal command line 'npm i' to download the dependencies. This is hosted on Heroku.
 
 ### License
 
