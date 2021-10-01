@@ -37,6 +37,12 @@ A blog style web application that allows users to log into How[r]you to either s
 
 ### User Story
 
+AS A User
+
+I WANT to log onto How[r]you using and authentication process with my personal email and password
+
+SO THAT I can access my accoutn, make posts, and comment on other people's posts
+
 ### Live Link
 
 ### Usage
