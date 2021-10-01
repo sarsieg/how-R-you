@@ -43,7 +43,7 @@ const ThoughtList = ({
                             className="btn btn-primary btn-block btn-squared"
                             to={`/thoughts/${thought._id}`}
                         >
-                            Join the discussion
+                            Click to see discussion
                         </Link>
                     </div>
                 ))}
