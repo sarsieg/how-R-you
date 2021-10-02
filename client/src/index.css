@@ -219,3 +219,8 @@ margin-top: 20px;
 .text-light.text-header {
     color: #e6e6e6!important;
 }
+
+.p-3.bg-dark.text-light {
+    background-color: #e6e6e6!important;
+
+}
