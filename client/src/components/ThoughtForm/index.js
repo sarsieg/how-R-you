@@ -99,8 +99,8 @@ const ThoughtForm = () => {
                 </>
             ) : (
                 <p>
-                    You need to be logged in to share. Please{' '}
-                    <Link to="/login">login</Link> or <Link to="/signup">signup</Link>
+                    You need to{' '}
+                    <Link to="/login">login</Link> or <Link to="/signup">signup</Link> to share and comment.
                 </p>
             )}
         </div>

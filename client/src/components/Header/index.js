@@ -15,26 +15,34 @@ const Header = () => {
 
                 <div>
                     <Link className="text-light" to="/">
-                        <h1 className="m-0">How[r]you</h1>
+                        <h1 className="m-0">how[R]you</h1>
                     </Link>
                     <p className="m-0">lets talk this shit out</p>
                 </div>
                 <div>
                     {Auth.loggedIn() ? (
                         <>
-                            <Link className="btn btn-lg btn-info m-2" to="/me">
-                                {Auth.getProfile().data.username}'s profile
+                            <Link className="btn btn-md btn-info m-2" to="/">                Home
                             </Link>
-                            <button className="btn btn-lg btn-light m-2" onClick={logout}>
+                            <Link className="btn btn-md btn-info m-2" >                Groups
+                            </Link>
+                            <Link className="btn btn-md btn-info m-2" >                Events
+                            </Link>
+                            <Link className="btn btn-d btn-info m-2" to="/me">
+                                Profile
+                            </Link>
+                            <button className="btn btn-md btn-light m-2" onClick={logout}>
                                 Logout
                             </button>
                         </>
                     ) : (
                         <>
-                            <Link className="btn btn-lg btn-info m-2" to="/login">
+                            <Link className="btn btn-md btn-info m-2" to="/">                Home
+                            </Link>
+                            <Link className="btn btn-md btn-info m-2" to="/login">
                                 Login
                             </Link>
-                            <Link className="btn btn-lg btn-light m-2" to="/signup">
+                            <Link className="btn btn-md btn-light m-2" to="/signup">
                                 Signup
                             </Link>
                         </>
