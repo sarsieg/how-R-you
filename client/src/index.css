@@ -215,3 +215,7 @@ margin-top: 20px;
 .bg-light {
     border-radius: 0 0 .75rem .75rem;
 }
+
+.text-light.text-header {
+    color: #e6e6e6!important;
+}

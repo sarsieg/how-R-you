@@ -20,7 +20,7 @@ const ThoughtList = ({
                         <h4 className="card-header bg-primary text-light p-2 m-0" id="bootstrap-overrides">
                             {showUsername ? (
                                 <Link
-                                    className="text-light" style={{ fontSize: '1.7rem' }}
+                                    className="text-light text-header" style={{ fontSize: '1.7rem' }}
                                     to={`/profiles/${thought.thoughtAuthor}`}
                                 >
                                     {thought.thoughtAuthor} <br />
