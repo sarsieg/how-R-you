@@ -20,11 +20,11 @@ const ThoughtList = ({
                         <h4 className="card-header bg-primary text-light p-2 m-0" id="bootstrap-overrides">
                             {showUsername ? (
                                 <Link
-                                    className="text-light"
+                                    className="text-light" style={{ fontSize: '1.7rem' }}
                                     to={`/profiles/${thought.thoughtAuthor}`}
                                 >
                                     {thought.thoughtAuthor} <br />
-                                    <span style={{ fontSize: '.75rem' }}>
+                                    <span style={{ fontSize: '.6rem' }}>
                                         Posted on {thought.createdAt}
                                     </span>
                                 </Link>
@@ -40,7 +40,12 @@ const ThoughtList = ({
                             <p>{thought.thoughtText}</p>
                         </div>
                         <Link
-                            className="btn btn-primary btn-block btn-squared"
+                            className="btn btn-primary btn-block btn-squared" style={{
+                                borderBottomLeftRadius: '.75rem',
+                                borderBottomRightRadius: '.75rem',
+                                borderTopRightRadius: '0',
+                                borderTopLeftRadius: '0',
+                            }}
                             to={`/thoughts/${thought._id}`}
                         >
 
