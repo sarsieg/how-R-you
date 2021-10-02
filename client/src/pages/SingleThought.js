@@ -29,7 +29,6 @@ const SingleThought = () => {
           className="p-4"
           style={{
             fontSize: '1.5rem',
-            fontStyle: 'italic',
             border: '2px solid #1a1a1a',
             borderRadius: '1rem',
             margin: '10px',
