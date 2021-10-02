@@ -25,7 +25,7 @@ const Footer = () => {
                     >
                         
                     </span>{' '}
-                    <a style={{color: 'black'}}href="https://www.github.com/sarsieg" id="please">Sarah Siegel</a>, <a href="https://www.github.com/scoven2" id="please">Scott Siegel</a>, and <a href="https://www.github.com/StevegSiegel" id="please">Steve Siegel</a>
+                    <a href="https://www.github.com/sarsieg" id="please">Sarah Siegel</a>, <a href="https://www.github.com/scoven2" id="please">Scott Siegel</a>, and <a href="https://www.github.com/StevegSiegel" id="please">Steve Siegel</a>
                 </h4>
                 <h6>
                     <a href="https://www.google.com/search?q=volunteer+at+the+animal+shelter+near+me" id="footer">Help yourself and someone else!</a></h6>
