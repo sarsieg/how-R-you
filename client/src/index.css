@@ -224,3 +224,7 @@ margin-top: 20px;
     background-color: #e6e6e6!important;
 
 }
+
+.card-header.bg-green.text-light.p-2.m-0 {
+    color: #e6e6e6!important;
+}
